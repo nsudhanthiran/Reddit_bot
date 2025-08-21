@@ -12,11 +12,6 @@ This project demonstrates a complete Reddit automation solution that:
 - Logs all interactions to a local SQLite database
 - Provides a modern GUI for easy control and monitoring
 
-## Demo Videos
-
-
-### GUI Application Walkthrough  
-[![GUI Application Demo](https://img.youtube.com/vi/PLACEHOLDER/te walkthrough of the CustomTkinter interface and all features*
 
 ## Technical Stack
 
@@ -142,7 +137,7 @@ Below are screenshots that demonstrate the bot working end-to-end. Replace the d
 
 Shows one full scan cycle on both subreddits, keyword matches, and successful replies.
 
-![Single test on r/india and r/AskReddit](https://your-link-here/single_test_both_subs.png)
+![Single test on r/india and r/AskReddit](https://github.com/user-attachments/assets/193681e7-0061-40a4-a154-27061f1d2455)
 
 ---
 
@@ -150,7 +145,7 @@ Shows one full scan cycle on both subreddits, keyword matches, and successful re
 
 Demonstrates repeated cycles for rapid QA (interval is configurable; used 10min for testing).
 
-![10-minute looping cycle test](https://your-link-here/loop_cycle_10min.png)
+![10-minute looping cycle test](https://github.com/user-attachments/assets/39354913-a105-4e7b-9193-c0682266fd7e)
 
 ---
 
@@ -158,7 +153,7 @@ Demonstrates repeated cycles for rapid QA (interval is configurable; used 10min 
 
 Interaction records stored in SQLite: timestamp, subreddit, post_id, keywords_found, response, success flag.
 
-![SQLite interactions table](https://your-link-here/sqlite_interactions.png)
+![SQLite interactions table](https://github.com/user-attachments/assets/e87c8265-30b9-424a-ba4d-2bc81915bccc)
 
 ---
 
@@ -166,7 +161,7 @@ Interaction records stored in SQLite: timestamp, subreddit, post_id, keywords_fo
 
 Structured logs: startup, scanning, delays, replies, errors, and cycle timing for easy debugging.
 
-![Log file with detailed events](https://your-link-here/reddit_bot_log.png)
+![Log file with detailed events](https://github.com/user-attachments/assets/3a3a3439-5112-4007-bfb1-46adfa7127c5)
 
 ---
 
@@ -175,10 +170,10 @@ Structured logs: startup, scanning, delays, replies, errors, and cycle timing fo
 Samples of posted comments that were found helpful by users, showing real engagement.
 
 **Image A:**  
-![Helpful reply sample 1](https://your-link-here/reply_sample_1.png)
+![Helpful reply sample 1](https://github.com/user-attachments/assets/a07b3235-7e61-43ff-96c3-f9a6d3d70801)
 
 **Image B:**  
-![Helpful reply sample 2](https://your-link-here/reply_sample_2.png)
+![Helpful reply sample 2](https://github.com/user-attachments/assets/3d001148-de14-4a4e-8e49-218d3b8ed0e3)
 
 
 
@@ -201,7 +196,7 @@ The CustomTkinter GUI provides a professional interface for bot management:
 - **Start/Stop Controls:** Graceful bot control with immediate response  
 
 **Screenshot:**  
-![GUI – Live Monitoring (Logs, Status, Controls)](https://your-link-here/gui_live_monitoring.png)
+![GUI – Live Monitoring (Logs, Status, Controls)]<img width="984" height="744" alt="Image" src="https://github.com/user-attachments/assets/cacc46a5-ec63-4e5f-a2cb-22e32055bc20" />
 
 ---
 
@@ -213,7 +208,7 @@ The CustomTkinter GUI provides a professional interface for bot management:
 - **Auto-refresh:** Periodically updates the database view  
 
 **Screenshot:**  
-![GUI – Database Viewer (Table, Refresh, Clear)](https://your-link-here/gui_database_view.png)
+![GUI – Database Viewer (Table, Refresh, Clear)]<img width="984" height="744" alt="Image" src="https://github.com/user-attachments/assets/85d78215-0499-4f28-adf3-655112d574e5" />
 
 ### Threading Architecture
 ```python
