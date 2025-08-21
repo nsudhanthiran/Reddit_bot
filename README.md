@@ -14,8 +14,6 @@ This project demonstrates a complete Reddit automation solution that:
 
 ## Demo Videos
 
-### Core Bot Functionality
-[![Reddit Bot Core Demo](https://img.youtube.com/vi/d soon] - Demonstrates the main bot scanning posts and generating responses*
 
 ### GUI Application Walkthrough  
 [![GUI Application Demo](https://img.youtube.com/vi/PLACEHOLDER/te walkthrough of the CustomTkinter interface and all features*
@@ -133,6 +131,56 @@ def generate_response(self, post, keywords):
 - **Interactions Table**: Logs every response attempt with timestamp, subreddit, post details, keywords found, bot response, and success status
 - **Performance Metrics**: Tracks scanning efficiency and response rates
 - **SQLite Database**: Lightweight, file-based storage for easy analysis
+### Core Bot Functionality
+# Execution Proofs and Screenshots
+
+Below are screenshots that demonstrate the bot working end-to-end. Replace the dummy image links with your uploaded images.
+
+---
+
+## Single Test Run (r/india and r/AskReddit)
+
+Shows one full scan cycle on both subreddits, keyword matches, and successful replies.
+
+![Single test on r/india and r/AskReddit](https://your-link-here/single_test_both_subs.png)
+
+---
+
+## Looping Cycle (10-minute test)
+
+Demonstrates repeated cycles for rapid QA (interval is configurable; used 10min for testing).
+
+![10-minute looping cycle test](https://your-link-here/loop_cycle_10min.png)
+
+---
+
+## Database Logging (`reddit_bot.db`)
+
+Interaction records stored in SQLite: timestamp, subreddit, post_id, keywords_found, response, success flag.
+
+![SQLite interactions table](https://your-link-here/sqlite_interactions.png)
+
+---
+
+## Log Tracking (`reddit_bot.log`)
+
+Structured logs: startup, scanning, delays, replies, errors, and cycle timing for easy debugging.
+
+![Log file with detailed events](https://your-link-here/reddit_bot_log.png)
+
+---
+
+## Live Reddit Replies (Positive Community Feedback)
+
+Samples of posted comments that were found helpful by users, showing real engagement.
+
+**Image A:**  
+![Helpful reply sample 1](https://your-link-here/reply_sample_1.png)
+
+**Image B:**  
+![Helpful reply sample 2](https://your-link-here/reply_sample_2.png)
+
+
 
 ## GUI Application Features (`app.py`)
 
@@ -145,17 +193,27 @@ The CustomTkinter GUI provides a professional interface for bot management:
 - **Keywords Management**: Edit trigger keywords through a text area
 - **Real-time Validation**: Checks subreddit existence before starting
 
-### Live Monitoring
-- **Status Indicator**: Visual feedback on bot running state
-- **Live Logs Tab**: Real-time streaming of bot activity logs
-- **Heartbeat Messages**: Periodic status updates during long waits
-- **Start/Stop Controls**: Graceful bot control with immediate response
+## Live Monitoring
 
-### Database Management
-- **Database Viewer**: Browse all logged interactions in a clean table format
-- **Refresh Function**: Update the view with latest database entries
-- **Clear Database**: Remove all stored records with confirmation
-- **Auto-refresh**: Periodically updates the database view
+- **Status Indicator:** Visual feedback on bot running state  
+- **Live Logs Tab:** Real-time streaming of bot activity logs  
+- **Heartbeat Messages:** Periodic status updates during long waits  
+- **Start/Stop Controls:** Graceful bot control with immediate response  
+
+**Screenshot:**  
+![GUI – Live Monitoring (Logs, Status, Controls)](https://your-link-here/gui_live_monitoring.png)
+
+---
+
+## Database Management
+
+- **Database Viewer:** Browse all logged interactions in a clean table format  
+- **Refresh Function:** Update the view with latest database entries  
+- **Clear Database:** Remove all stored records with confirmation  
+- **Auto-refresh:** Periodically updates the database view  
+
+**Screenshot:**  
+![GUI – Database Viewer (Table, Refresh, Clear)](https://your-link-here/gui_database_view.png)
 
 ### Threading Architecture
 ```python
